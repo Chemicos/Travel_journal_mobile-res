@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #2B283A;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ----------------------- Navigation -------------------------- */
+
+.navbar {
+    display: flex;
+    background:#F55A5A;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 55px;
+}
+
+.navbar > p {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    margin: 0;
+}
+
+.icon {
+    margin-right: 7px; 
+    font-size: 24px;
+}
+
+/* ----------------------- Card SECTION -------------------------- */
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    width: 470px;
+}
+
+.card:hover {
+    transform: translateX(15px);
+    transition-duration: 300ms;
+}
+
+.card > img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+}
+
+.card-link > a {
+    margin-left: 12px;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #918E9B;
+}
+
+.card-location {
+    margin-right: 4px;
+    color:#F55A5A ;
+    font-size: 12px;
+}
+
+.card-link > h4 {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    margin: 0;
+}
+
+.card-info {
+    width: 470px;
+    padding-left: 19px;
+}
+
+.card-info > h1 {
+    margin: 7px 0 0 0;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.card-date {
+    margin: 14px 0 0 0;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    font-weight: bold;
+}
+
+.card-description {
+    margin: 9px 0 0 0;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+hr {
+    margin: auto;
+    width: 471px;
+    border: 1px solid #F5F5F5;
+}
